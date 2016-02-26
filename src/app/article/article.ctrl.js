@@ -6,7 +6,7 @@
 
       $scope.aid = $stateParams.aid;
       if(!$scope.aid){
-        $state.go('home');
+        $state.go('blogList');
       }
       $scope.isAdmin = Auth.isAdmin;
       $scope.isLoggedIn = Auth.isLoggedIn;
@@ -29,7 +29,7 @@
           $scope.prev = result.data.prev || {};
         });
       }).catch(function () {
-        $state.go('home'); 
+        $state.go('blogList'); 
       });
       //获取评论.
       Comment.getFrontCommentList({id:$scope.aid}).then(function (result) {

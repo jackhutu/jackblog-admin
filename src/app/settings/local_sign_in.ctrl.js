@@ -24,7 +24,7 @@
         })
           .then( function() {
             toaster.pop('success','','登录成功,欢迎光临!');
-            $state.go('home');
+            $state.go('blogList');
           })
           .catch( function(err) {
             $scope.user.captcha = '';

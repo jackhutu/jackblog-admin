@@ -9,7 +9,7 @@
 	    $scope.getCurrentUser = Auth.getCurrentUser;
 	    $scope.logout = function () {
 	      Auth.logout();
-	      $state.go('home',{},{reload:true});
+	      $state.go('signin',{},{reload:true});
 	    };
 	    //切换模式
 	    $scope.changeMode = function () {
