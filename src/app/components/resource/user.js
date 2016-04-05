@@ -61,7 +61,7 @@
 			return {
 				getUserList:function (data,callback) {
 				  var cb = callback || angular.noop;
-				  return userResource.getUserList(function(result) {
+				  return userResource.getUserList(data,function(result) {
 				    return cb(result);
 				  }, function(err) {
 				    return cb(err);
