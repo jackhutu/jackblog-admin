@@ -7,7 +7,7 @@ Jackblog 是使用 Node.js + MongoDB + 其它客户端框架, 开发的个人博
 [koa版](https://github.com/jackhutu/jackblog-api-koa)         
 客户端有:  
 [angular1.x版](https://github.com/jackhutu/jackblog-angular1)   
-[react redux 版](https://github.com/jackhutu/jackblog-react-redux)  
+[react 版](https://github.com/jackhutu/jackblog-react)  
 [vue 版](https://github.com/jackhutu/jackblog-vue)    
 移动端有:   
 [react native 版](https://github.com/jackhutu/jackblog-react-native-redux)
@@ -41,7 +41,6 @@ $ gulp build 或 gulp serve:dist
 ```
 $ pm2 start process.json
 ```
-可参考[利用git和pm2一键布署项目到vps](http://angular1.jackhu.top/article/55cd8e00c6e998b817a930c7)
 
 ## 测试
 karma测试:

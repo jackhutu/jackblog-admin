@@ -3,7 +3,7 @@ var express = require('express');
 var favicon = require('serve-favicon');
 
 var app = new express();
-var port = 8888;
+var port = 8700;
 
 
 app.use(express.static(path.join(__dirname, 'dist')));

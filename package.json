@@ -1,12 +1,11 @@
 {
   "name": "jackblog-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jackblog admin 后台管理",
   "repository": "https://github.com/jackhutu/jackblog-admin",
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
-    "pm2": "^1.1.1",
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {

@@ -1,0 +1,12 @@
+*.md
+.git
+node_modules
+test
+test_coverage
+test_e2e
+test_karma
+bower_components
+src
+.tmp
+.sass-cache
+gulp
