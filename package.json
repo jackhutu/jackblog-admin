@@ -2,6 +2,17 @@
   "name": "jackblog-admin",
   "version": "1.0.1",
   "description": "jackblog admin 后台管理",
+  "scripts": {
+    "start": "gulp serve:dist",
+    "dev": "gulp serve",
+    "build": "gulp build",
+    "test": "gulp test:karma",
+    "test-e2e": "gulp test:e2e",
+    "pm2-start": "pm2 start --no-daemon process.json"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "repository": "https://github.com/jackhutu/jackblog-admin",
   "license": "MIT",
   "dependencies": {
@@ -57,15 +68,5 @@
     "phantomjs": "^1.9.18",
     "uglify-save-license": "^0.4.1",
     "wiredep": "^2.2.2"
-  },
-  "scripts": {
-    "start": "gulp serve",
-    "test": "gulp test:karma",
-    "test-e2e": "gulp test:e2e",
-    "pm2-start": "pm2 start process.json",
-    "pm2-restart": "pm2 restart process.json"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   }
 }
